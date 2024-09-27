@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\css\style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>NITHIYAKALYANI</span></a>
+        <nav class="navbar">
+            <a href="#" class="active">portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="\Media\Nithiya kalyani Resume (1).pdf" target="_blank">Resume</a>
+            <a href="#education">Education</a>
+            <a href="#internship">Internship</a>
+        </nav>
+
+        <a href="#contact" class="contact">Contact Me</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi</h1>
+            <h1> I'm <span> NITHIYAKALYANI<br></span>a Fullstack Developer</h1>
+            <!-- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eligendi ad, quidem perferendis fugiat voluptas quaerat nihil corrupti dolorum repudiandae consectetur neque voluptatem nobis quos. Consequuntur mollitia adipisci accusantium ipsam!</p> -->
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+                <button class="btn-2">Resume</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="\Media\istockphoto-516814892-612x612.jpg" alt="upload image">
+        </div>
+    </section>
+    <section class="about">
+        <div class="about-img">
+            <img src="\Media\istockphoto-516814892-612x612.jpg" alt="upload image">
+        </div>
+            <div class="about-content">
+                <h2> About Me </h2>
+                <h3>Full Stack<span>Developer</span></h3>
+                <p>A *Full Stack Developer* in Python is a versatile professional 
+                    skilled in both front-end and back-end development, using Python as a primary programming language 
+                    for building web applications. On the back-end, they work with frameworks like Django to handle 
+                    server-side logic, database management, APIs, and business processes. For the front-end, they use HTML, CSS,
+                     and JavaScript (or frameworks like React or Angular) to design responsive and user-friendly interfaces.
+                     </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PYTHON</span>  <br> Programming Language</li> <br>
+                        <li><span>Front End Developer</span> <br>HTML CSS JS BOOTSTRAP  </li> <br>
+                        <li><span>Back End Developer</span> <br>   DJANGO ORACLE SQL  </li> <br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-current</span>  <br> Full Stack Developer Studying in Greens Tech</li> <br>
+                        <li><span>2020-2024</span> <br> BE from TEC  </li> <br>
+                        <li><span>2018-2020</span> <br>   HSC from CBH School  </li> <br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>2023 </span>  <br> Internship at Greenpixel IT solutions</li> <br>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <!-- services -->
+            <div id="services">
+                <div class="container">
+                        <h1 class="sub-titles">My Services</h1>
+                                <div class="services-list">
+                                    <div>
+                                        <h2>Web Developer</h2>
+                                        <p>A *Web Developer* creates and maintains websites, handling both front-end and back-end tasks.
+                                             They ensure the site is functional, user-friendly, and secure.
+                                        </p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+            
+                                    <div>
+                                        <h2>Front End Developer</h2>
+                                        <p>A *Front-End Developer* builds the visual and interactive parts of websites using 
+                                            HTML, CSS, and JavaScript, 
+                                            ensuring a smooth and responsive user experience across all devices.
+                                        </p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                
+                                
+                                    <div>
+                                        <h2>Back End Developer </h2>
+                                        <p>In addition to coding, they are familiar with database systems like PostgreSQL or MySQL, version control 
+                                            tools like Git, 
+                                          and deployment practices using cloud services such as AWS 
+                                        </p>
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                </div>
+                </div>
+            </div> 
+
+    <section class="contact-form" id="contact">
+        <h2 class="contact-me">Contact <span> Me </span></h2>
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="Name" id="Name" placeholder="FullName">
+                <input type="email" name="Email" id="Email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="Phno" id="Phno"  placeholder="Phonenumber">
+                <input type="text" name="Subject" id="Subject" placeholder="Subject">
+            </div>
+            <textarea name="Text" id="Text" cols="10" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send message" class="btn-1">
+        </form>
+        <span id="msg"> hello </span>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
+                <path d="M18.3 1H5.7C4.1 1 3 2.1 3 3.7v15.6C3 21.9 4.1 23 5.7 23h12.6c1.6 0 2.7-1.1 2.7-2.7V3.7C21 2.1 19.9 1 18.3 1z"/>
+                <path d="M15.6 1.25v3.4H12.8c-1.5 0-2 .8-2 2.1v2.8h3.6l-.5 3.4h-3.1v8h-3.6v-8H8.2V7.3c0-3.3 2-5.3 5-5.3h2.4z"/>
+            </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                <path d="M16 8a6 6 0 0 1-12 0 6 6 0 1 1 12 0z"/>
+                <path d="M2 20h4V8H2z"/>
+                <path d="M8 20h4v-8H8z"/>
+                <path d="M16 20h4v-4h-4z"/>
+            </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                <path d="M23 3a10.9 10.9 0 0 1-3.1.9 4.6 4.6 0 0 0 2-2.5 9.3 9.3 0 0 1-3 1.1A4.6 4.6 0 0 0 16 2a4.6 4.6 0 0 0-4.6 4.6c0 .4 0 .8.1 1.1A13.1 13.1 0 0 1 1.6 2 4.6 4.6 0 0 0 2 6.7a4.5 4.5 0 0 1-2.1-.6v.1c0 2.2 1.6 4 3.7 4.4a4.6 4.6 0 0 1-2.1.1 4.6 4.6 0 0 0 4.3 3.2A9.2 9.2 0 0 1 0 19.2a12.9 12.9 0 0 0 7 2.1c8.4 0 13-7 13-13v-.6A9.3 9.3 0 0 0 23 3z"/>
+            </svg></a>
+            <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M17.2 2h-10.4c-2.2 0-4 1.8-4 4v10.4c0 2.2 1.8 4 4 4h10.4c2.2 0 4-1.8 4-4V6.2c0-2.2-1.8-4-4-4zm-5.6 11.2a3.6 3.6 0 1 1 3.6-3.6 3.6 3.6 0 0 1-3.6 3.6zm5.6-7.2a1.2 1.2 0 1 1-1.2-1.2 1.2 1.2 0 0 1 1.2 1.2z"/>
+            </svg></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">AboutMe</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">PrivacyPolicy</a>
+            </li>
+        </ul>
+        <p class="copyright">0 2024 Nithiya | All Rights Reserved</p>
+    </footer>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzJLNoiEz3PxNsl4wFRgfXSX5yewhK3Py2QXBLqd859t5FiA1ymuayutOkGZiwwTGV9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
